@@ -11,12 +11,7 @@ import net.minecraft.world.entity.player.Player;
 
 public class AutoMessageServer {
 
-    static MinecraftServer SERVER;
-
     public static void init(MinecraftServer server) {
-
-        SERVER = server;
-
         ServerMessageService.load();
     }
 
