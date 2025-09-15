@@ -11,7 +11,9 @@ import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.storage.LevelResource;
 
 public class AutoMessageClient {
 
@@ -37,7 +39,17 @@ public class AutoMessageClient {
 
         ClientMessageService.instance.ON_FIRST_JOIN_MESSAGES.forEach(message -> {
 
-            String serverName = CLIENT.hasSingleplayerServer() ? Objects.requireNonNull(CLIENT.getSingleplayerServer()).getWorldData().getLevelName() : Objects.requireNonNull(CLIENT.getCurrentServer()).ip;
+            // String serverName = CLIENT.hasSingleplayerServer() ? Objects.requireNonNull(CLIENT.getSingleplayerServer()).getWorldData().getLevelName() : Objects.requireNonNull(CLIENT.getCurrentServer()).ip;
+
+            String serverName;
+
+            if (CLIENT.hasSingleplayerServer()) {
+                MinecraftServer server = Objects.requireNonNull(CLIENT.getSingleplayerServer());
+                serverName = server.getWorldPath(LevelResource.PLAYER_DATA_DIR).toString();
+                serverName = serverName.replaceAll("(?s)^.*?(?=" + server.getWorldData().getLevelName() + ")", "").replace(File.separatorChar + "playerdata", "");
+            } else {
+                serverName = Objects.requireNonNull(CLIENT.getCurrentServer()).ip;
+            }
 
             // if pack intro has ever been sent before, ignore it.
             if (message.pack_intro && JsonFileHelper.anyKeyContainsTag(new File(CLIENT_SERVER_TAGS_FILEPATH), message.identifier + ".firstJoin")) return;

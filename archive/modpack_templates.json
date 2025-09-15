@@ -1,0 +1,236 @@
+[
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading New Game§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading Prehistoric World§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading Essentials Mods§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading More Animals§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading New Simple Mods§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading New Game 2§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading More FPS§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading More Decorations§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading New Revolution§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading More Realistic§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading New Age§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading More Dungeons§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading The Zombie Conquest§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading The Last War§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading Mastering Magic§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading Prehistoric Dawn§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading More Biomes§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading Conquest of Dragons§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading New Simple Mods§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading More Decorations 2§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading The Zombie Quest - Easy Mode§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading More Animals 2§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading Immersive Pixelmon§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading Whispers in the Void§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading Create Evolution§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  },
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/Lupin",
+    "text": "§2Thank you very much for downloading Biohazard: Project Genesis§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  }
+]
