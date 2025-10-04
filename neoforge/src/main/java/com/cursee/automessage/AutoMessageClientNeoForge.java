@@ -14,6 +14,7 @@ public class AutoMessageClientNeoForge {
 
   public AutoMessageClientNeoForge(final IEventBus modEventBus) {
 
+    AutoMessageClient.CLIENT = Minecraft.getInstance();
     AutoMessageClient.init(Minecraft.getInstance());
 
     NeoForge.EVENT_BUS.addListener((Consumer<EntityJoinLevelEvent>) event -> {

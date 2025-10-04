@@ -24,7 +24,9 @@ public class AutoMessageClient {
   private static final String CLIENT_SERVER_TAGS_FILEPATH =
       Services.PLATFORM.getGameDirectory() + File.separator + "automessage_data" + File.separator
           + "client_server_tags.json";
-  static Minecraft CLIENT;
+
+
+  public static Minecraft CLIENT;
 
   public static void init(Minecraft client) {
 
@@ -44,9 +46,12 @@ public class AutoMessageClient {
 
   // send when a player joins a level, checking against being tagged as joined already
   public static void onFirstJoinLevel(LocalPlayer player, ClientLevel level) {
+
     if (level == null || !ClientMessageService.instance.general.enabled) {
       return;
     }
+
+    CLIENT = Minecraft.getInstance();
 
     ClientMessageService.instance.ON_FIRST_JOIN_MESSAGES.forEach(message -> {
 

@@ -22,15 +22,15 @@ public class AutoMessageNeoForge {
     AutoMessage.init();
     EVENT_BUS = container.getEventBus();
     ModRegistryNeoForge.register(EVENT_BUS);
-      if (FMLEnvironment.dist == Dist.CLIENT) {
-          new AutoMessageClientNeoForge(EVENT_BUS);
-      }
+    if (FMLEnvironment.dist == Dist.CLIENT) {
+      new AutoMessageClientNeoForge(EVENT_BUS);
+    }
     NeoForge.EVENT_BUS.addListener(AutoMessageServerNeoForge::new);
     NeoForge.EVENT_BUS.addListener((Consumer<EntityJoinLevelEvent>) event -> {
-        if (!(event.getEntity() instanceof ServerPlayer serverPlayer)
-            || !(event.getLevel() instanceof ServerLevel serverLevel)) {
-            return;
-        }
+      if (!(event.getEntity() instanceof ServerPlayer serverPlayer)
+          || !(event.getLevel() instanceof ServerLevel serverLevel)) {
+        return;
+      }
 
       AutoMessageServer.onFirstJoinLevel(serverPlayer, serverLevel);
       AutoMessageServer.onJoinLevel(serverPlayer, serverLevel);
