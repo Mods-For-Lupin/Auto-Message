@@ -10,6 +10,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.javafmlmod.FMLModContainer;
 import net.neoforged.fml.loading.FMLEnvironment;
+import net.neoforged.fml.loading.FMLLoader;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 
@@ -22,7 +23,7 @@ public class AutoMessageNeoForge {
     AutoMessage.init();
     EVENT_BUS = container.getEventBus();
     ModRegistryNeoForge.register(EVENT_BUS);
-    if (FMLEnvironment.dist == Dist.CLIENT) {
+    if (FMLLoader.getCurrent().getDist() == Dist.CLIENT) {
       new AutoMessageClientNeoForge(EVENT_BUS);
     }
     NeoForge.EVENT_BUS.addListener(AutoMessageServerNeoForge::new);

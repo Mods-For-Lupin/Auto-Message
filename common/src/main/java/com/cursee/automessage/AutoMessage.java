@@ -2,14 +2,14 @@ package com.cursee.automessage;
 
 import com.cursee.automessage.core.message.util.MessageServiceUtil;
 import com.cursee.automessage.platform.Services;
-import com.cursee.monolib.core.sailing.Sailing;
+import com.cursee.monolib.api.common.sailing.SailingApi;
 import java.io.File;
 import net.minecraft.resources.ResourceLocation;
 
 public class AutoMessage {
 
   public static void init() {
-    Sailing.register(Constants.MOD_ID, Constants.MOD_NAME, Constants.MOD_VERSION,
+    SailingApi.register(Constants.MOD_ID, Constants.MOD_NAME, Constants.MOD_VERSION,
         Constants.MOD_PUBLISHER, Constants.MOD_URL);
 
     String dataPath = Services.PLATFORM.getGameDirectory() + File.separator + "automessage_data";
